@@ -3,3 +3,6 @@ In this repository, I will be uploading my daily DSA progress in the Java langua
 
 ## Week 1 Patterns
 Implementing patterns  questions has enhanced my logical skills and pattern recognition which helped in writing an effective code. I have practiced 20 patterns so far.
+
+## Week 2 Array
+This week I will be implementing array operations such as array traversal, deletion, insertion, updating along with try learn where and how arrays are implemented in real- life. 
