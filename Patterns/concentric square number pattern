@@ -1,0 +1,33 @@
+5 5 5 5 5 5 5 5 5 
+5 4 4 4 4 4 4 4 5 
+5 4 3 3 3 3 3 4 5 
+5 4 3 2 2 2 3 4 5 
+5 4 3 2 1 2 3 4 5 
+5 4 3 2 2 2 3 4 5 
+5 4 3 3 3 3 3 4 5 
+5 4 4 4 4 4 4 4 5 
+5 5 5 5 5 5 5 5 5
+
+Code
+
+import java.util.Scanner;
+public class patterns {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter n:");
+    int n = sc.nextInt();
+for (int i = 0; i < 2 * n - 1; i++) {
+    for (int j = 0; j < 2 * n - 1; j++) {
+
+        int min = Math.min(
+            Math.min(i, j),
+            Math.min(2 * n - 2 - i, 2 * n - 2 - j)
+        );
+
+        System.out.print(n - min + " ");
+    }
+
+    System.out.println();
+}
+    }
+}
